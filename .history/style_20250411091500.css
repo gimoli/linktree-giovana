@@ -1,0 +1,112 @@
+*{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+.container-main {
+    background-color: rgb(37, 37, 37);
+    width: 450px;
+    height: 720px;
+    box-sizing: border-box;
+    margin: 250px auto;
+    padding: 90px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-imagem img{
+    margin: 0 60px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.container-infos {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.container-infos h1 {
+    font-weight: 800;
+}
+
+.container-infos h2{
+  color: #e32363;
+    margin-top: 10px;
+    margin-bottom: px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container-easter-egg {
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+.container-social ul{
+    list-style-type: none;
+
+}
+
+.container-socia
+
+.container-social a{
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+}
+
+.botao-linktree-1 {
+  display: inline-block;
+  padding: 10px 55px;
+  margin: 5px 0;
+  background-color: #575455; /* cor do Instagram */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.botao-linktree-1:hover {
+  background-color: #c1275b;
+}
+
+.botao-linktree-2 {
+  display: inline-block;
+  padding: 10px 60px;
+  margin: 5px 0;
+  background-color: #575455; /* cor do Instagram */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.botao-linktree-2:hover {
+  background-color: #c1275b;
+}
+
+.botao-linktree-3 {
+  display: inline-block;
+  padding: 10px 50px;
+  margin: 5px 0;
+  background-color: #575455; /* cor do Instagram */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.botao-linktree-3:hover {
+  background-color: #c1275b;
+}

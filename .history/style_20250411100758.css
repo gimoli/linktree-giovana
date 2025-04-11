@@ -36,15 +36,28 @@ body {
 }
 
 .container-infos h2{
+  color: #e32363;
+    margin-top: 10px;
+    margin-bottom: px;
     font-weight: 600;
     font-size: 18px;
 }
 
-.container-social-links ul{
-    list-style-type: none;
+.container-easter-egg {
+    margin-bottom: 15px;
+    color: aliceblue;
 }
 
-.container-social-links a{
+.container-social ul{
+    list-style-type: none;
+
+}
+
+.container-social li {
+}
+
+.container-social a{
     text-decoration: none;
     color: rgb(194, 194, 194);
 }
+
