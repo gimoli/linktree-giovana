@@ -1,0 +1,83 @@
+/* Estilos gerais */
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #833AB4;
+    background: linear-gradient(0deg, rgb(175, 1, 1) 20%, rgb(0, 0, 0) 90%);
+    animation: gradientShift 10s ease infinite;
+    background-size: 400%;
+}
+
+/* Container principal ajustado */
+.container-main {
+    background-color: rgb(37, 37, 37);
+    width: 90%;  /* A largura será 90% da tela */
+    max-width: 450px;  /* Limite de 450px para telas maiores */
+    height: auto;  /* Permite que a altura se ajuste automaticamente */
+    box-sizing: border-box;
+    margin: 50px auto;  /* Centraliza o container com margem */
+    padding: 20px;  /* Ajusta o padding para que o conteúdo fique mais espaçado */
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Ajuste da imagem */
+.container-imagem img {
+    width: 105px;
+    border-radius: 100px;
+}
+
+/* Ajustes nos textos */
+.container-infos {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.container-infos h1 {
+    font-weight: 800;
+}
+
+.container-infos h3 {
+    color: #af0606;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container-easter-egg {
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+/* Estilos para links e botões */
+.container-social ul {
+    list-style-type: none;
+}
+
+.container-social a {
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+}
+
+.container-social {
+    margin-top: 40px;
+}
+
+.container-social li {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    background-color: rgb(83, 85, 85);
+    margin: 9px 0;
+    border-radius: 15px;
+    font-weight: 700;
+    transition-duration: 0.6s;
+}
+
+/* Hover nos botões*

@@ -3,7 +3,6 @@
     font-family: "Nunito", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -11,25 +10,20 @@ body {
     background: linear-gradient(0deg, rgb(175, 1, 1) 20%, rgb(0, 0, 0) 90%);
     animation: gradientShift 10s ease infinite;
     background-size: 400%;
-    font-size: 16px; /* Tamanho de fonte base */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Faz o corpo ocupar toda a altura da tela */
-    flex-direction: column;
+    font-size: 16px; /* Ajusta o tamanho da fonte para o padrão */
 }
 
 /* Container Principal */
 .container-main {
     background-color: rgb(37, 37, 37);
-    width: 90%;
-    max-width: 500px;
-    height: auto;
-    padding: 20px;
-    margin: 30px 0;
+    width: 90%;  /* Largura 90% da tela */
+    max-width: 500px;  /* Limite máximo para telas maiores */
+    height: auto;  /* A altura é ajustável */
+    box-sizing: border-box;
+    margin: 30px auto;  /* Centraliza o container com espaçamento */
+    padding: 20px;  /* Ajusta o padding */
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra para um visual mais suave */
 }
 
 /* Imagem de Perfil */
@@ -37,19 +31,18 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 100px;
-    object-fit: cover; /* Garante que a imagem não seja esticada e preencha o espaço sem deformar */
 }
 
 /* Informações do Usuário */
 .container-infos h1 {
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.5em;  /* Aumenta o tamanho do título */
 }
 
 .container-infos h3 {
     color: #af0606;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.1em;  /* Ajusta o tamanho do subtítulo */
 }
 
 .container-easter-egg {
@@ -60,7 +53,6 @@ body {
 /* Links e Botões Sociais */
 .container-social ul {
     list-style-type: none;
-    padding: 0;
 }
 
 .container-social a {
@@ -77,18 +69,18 @@ body {
     justify-content: center;
     gap: 5px;
     align-items: center;
-    width: 100%;
+    width: 100%;  /* Ocupa toda a largura disponível */
     height: 45px;
     background-color: rgb(83, 85, 85);
     margin: 9px 0;
     border-radius: 15px;
     font-weight: 700;
-    transition-duration: 0.3s; /* Diminui o tempo de transição */
+    transition-duration: 0.6s;
 }
 
 .container-social li:hover {
     background-color: #c90c0c;
-    transform: scale(1.05); /* Reduz o aumento do botão para 5% */
+    transform: scale(1.1);
 }
 
 /* Media Queries para Responsividade */
@@ -96,51 +88,51 @@ body {
 /* Telas pequenas (celulares) */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 14px; /* Ajusta o tamanho da fonte */
     }
 
     .container-main {
-        width: 95%;
-        padding: 15px;
-        margin: 20px auto;
+        width: 95%;  /* Faz o container ocupar 95% da tela */
+        padding: 15px;  /* Ajusta o padding para telas pequenas */
+        margin: 20px auto;  /* Ajuste da margem */
     }
 
     .container-imagem img {
-        width: 90px;
+        width: 90px;  /* Reduz a imagem para caber melhor */
         height: 90px;
     }
 
     .container-infos h1 {
-        font-size: 1.2em;
+        font-size: 1.2em;  /* Reduz o título para caber melhor */
     }
 
     .container-infos h3 {
-        font-size: 1em;
+        font-size: 1em;  /* Reduz o subtítulo */
     }
 
     .container-social li {
-        width: 100%;
-        font-size: 0.9em;
+        width: 100%;  /* Faz os botões ocuparem toda a largura disponível */
+        font-size: 0.9em;  /* Ajuste da fonte nos botões sociais */
     }
 }
 
 /* Telas grandes (notebooks e desktops) */
 @media (min-width: 1024px) {
     .container-main {
-        width: 60%;
-        margin: 50px auto;
+        width: 60%;  /* Container com 60% da largura da tela */
+        margin: 50px auto;  /* Ajuste de margem */
     }
 
     .container-imagem img {
-        width: 140px;
+        width: 140px;  /* Aumenta o tamanho da imagem em telas grandes */
         height: 140px;
     }
 
     .container-infos h1 {
-        font-size: 2em;
+        font-size: 2em;  /* Aumenta o título em telas grandes */
     }
 
     .container-social li {
-        font-size: 1.1em;
+        font-size: 1.1em;  /* Ajuste nos botões sociais */
     }
 }
